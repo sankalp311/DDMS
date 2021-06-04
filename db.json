@@ -1,0 +1,88 @@
+[
+	{
+		"id": "1622729731428",
+		"username": "che",
+		"password": "$2b$10$4JzAzpzst.v.jl3ACNJhs.FKTWWTwmkOcSZNmk6PcU.NlxL4ZITi.",
+		"name": "Chemical Engineering",
+		"description": "Department of Chemistry was started in the year 2011. The department is committed to impart quality education in chemical science in compliance with the vision and mission of the institute. Currently, it offers two theory and one practical courses in Chemistry for undergraduate B.Tech students. The department has started Ph.D. program in chemistry in the academic year 2014-15.",
+		"files": {
+			"syllabus": [],
+			"notice": [],
+			"invoice": []
+		}
+	},
+	{
+		"id": "1622729773809",
+		"username": "ce",
+		"password": "$2b$10$MDo9KWcQZBhN5AkrU0LMUuq17ounqacCBmemXzIMdyKIgu5u4dS9G",
+		"name": "Civil Engineering",
+		"description": "The Department of Civil Engineering started functioning from July, 2014. The Department offers a four year Undergraduate level course with an intake capacity of 30 students and PhD. doctorate courses. The department aims at providing quality education to all the young Civil Engineering aspirants to help them grow and shape a better career. The Department works with an objective to produce competent engineers and researchers who will go ahead along with the fast growing technology.",
+		"files": {
+			"syllabus": [],
+			"notice": [],
+			"invoice": []
+		}
+	},
+	{
+		"id": "1622729789383",
+		"username": "cse",
+		"password": "$2b$10$NH05kD75Kpnx4Czs.spC3ecn/13Xt6jl5nfsYplsCCAvgL1l1sQ9W",
+		"name": "Computer Science and Engineering",
+		"description": "The Department of Computer Science and Engineering, is offering an undergraduate engineering degree program since the establishment of the institute with a view to offer quality higher education. Doctoral Programme has also been started in the academic year 2015. The department has established Network Lab, Programming Lab, Database Lab, Datamining Lab and Computation Lab among others. There are standalone servers for firewall, Video Conferencing, Networking also Blade servers for ERP system,e-books etc.",
+		"files": {
+			"syllabus": [],
+			"notice": [
+				"myFile-1622779044894.ctz"
+			],
+			"invoice": []
+		}
+	},
+	{
+		"id": "1622729795254",
+		"username": "eee",
+		"password": "$2b$10$XBRmEcHEJsZ0X1FK1Jb8I.8CcuUb8YzvtS9HniIfELXrM4LFmhd12",
+		"name": "Electrical And Electronics Engineering",
+		"description": "Electrical and Electronics Engineering was one of the first three disciplines in the B. Tech programme that had started in NIT Mizoram since July 2010, while it was functioning under the mentor Institute, VNIT, Nagpur. Presently the department offers B.Tech,M.Tech and PhD program. The B. Tech program was started in 2010 with an intake of 30 students and M.Tech program was started with an intake of 10 students offering specialization in Power Electronics and drives from 2016 onwards. Presently there are part time research scholars who have registered for PhD program. The department has 08 faculty members out of which two with Ph.D. and the remaining six are pursuing their Ph.D. registered in different premier Institutions in the country. The Department aims to impart high quality education to the students and carry out fundamental and industry oriented research work. The research interest of faculties include various areas of Electrical engineering such as Soft computing application in Power System Control, Power Electronics & Machine Drives, Control System and Instrumentation, Non-conventional Energy system, High Voltage Engineering etc. The department have well-equipped laboratory facilities for the students such as  Electrical Machine Lab, Basic Electrical and Network lab, Power System Simulation Lab, Control & Instrumentation Lab, Power Electronics & Drives Lab are available with the department.",
+		"files": {
+			"syllabus": [],
+			"notice": [],
+			"invoice": []
+		}
+	},
+	{
+		"id": "1622729802087",
+		"username": "ece",
+		"password": "$2b$10$w26mHsg.R5Grtml0jNDcleAh4ECvuwU4Z4q5NLFWAoGgeOg2hYe8W",
+		"name": "Electronics And Communication Engineering",
+		"description": "The Electronics Engineering Department aims to meet the needs of industry and commerce by providing human resource with the required knowledge and skill and also by promoting, dissemination, developing and transferring technology. And also aims to support the development of the country and the promotion of national integration.",
+		"files": {
+			"syllabus": [],
+			"notice": [],
+			"invoice": []
+		}
+	},
+	{
+		"id": "1622729849075",
+		"username": "me",
+		"password": "$2b$10$hVHWF.RuLlpAEySgjvCt0u6gzbRK5jVcvqRQJl8ozSAnX4LRu3il2",
+		"name": "Mechanical Engineering",
+		"description": "The mechanical engineering department of NIT Mizoram was started from the year of 2013. Currently it’s offering the B.Tech course with the annual intake of 30 students. The department has also started the PhD programme from 2016. This newly established department comprises of well-qualified faculties, supporting staffs and suitably equipped laboratories. The continuous development in terms of quality faculty members and laboratories evince the Vision and Mission of the department. The first undergraduate batch successfully rolled out in the year 2017.",
+		"files": {
+			"syllabus": [],
+			"notice": [],
+			"invoice": []
+		}
+	},
+	{
+		"id": "1622777844925",
+		"username": "12345",
+		"password": "$2b$10$xQlvDGymeKA8WKiqr71Q8OrymhDSmvn/qkA6QE8xtkpd.U0wrpo/O",
+		"name": "",
+		"description": "",
+		"files": {
+			"syllabus": [],
+			"notice": [],
+			"invoice": []
+		}
+	}
+]

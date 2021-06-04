@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+  </script>
+  <title></title>
+</head>
+<body>
+  <div class="">
+    <div class="row" style="background-color: #eee;">
+      <div class="col s9">
+        <h3 class='row'>
+          <img class='col s2' src='https://www.nitmz.ac.in/images/Logo_NITMZ.png'>
+          <div class="col s10"><%=user.name%></div>
+        </h3>
+      </div>
+      <div class="col s3">
+        <form action="/logout?_method=DELETE" method="POST">
+          <button type="submit" class="btn">LogOut</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s4"><a href="#home" class="active">Home</a></li>
+          <li class="tab col s4"><a href="#syllabus">Syllabus</a></li>
+          <li class="tab col s4"><a href="#notice">Notice</a></li>
+          <li class="tab col s4"><a href="#invoice">Invoice</a></li>
+        </ul>
+      </div>
+
+      <div class='container'>
+      <div id="home" class="col s12">
+        <p>
+          <%= user.description %>
+        </p>
+      </div>
+
+      <div id="syllabus" class="col s12">
+        <div class="">
+          <ul class="collection with-header">
+            <li class="collection-header">
+              <h5>Files:</h5>
+            </li>
+            <% for(let i=0; i<user.files.syllabus.length; i++) { %>
+              <li class="collection-item">
+                <form action="/download/<%= user.files.syllabus[i]%>">
+                  <label>
+                    <%= user.files.syllabus[i] %>
+                      <button type="submit" class="btn waves-effect waves-light">
+                        <i class="material-icons">download</i>
+                      </button>
+                  </label>
+                </form>
+              </li>
+              <% } %>
+          </ul>
+          <!--<%= typeof msg != 'undefined' ? msg : '' %>-->
+          <form action="/?tab=syllabus" method="POST" enctype="multipart/form-data">
+            <div class="file-field input-field">
+              <div class="btn grey">
+                <i class="material-icons">add</i>
+                <input name="myFile" type="file">
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text">
+              </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+      <div id="notice" class="col s12">
+        <div class="">
+          <ul class="collection with-header">
+            <li class="collection-header">
+              <h5>Files:</h5>
+            </li>
+            <% for(let i=0; i<user.files.notice.length; i++) { %>
+              <li class="collection-item">
+                <form action="/download/<%= user.files.notice[i]%>">
+                  <label>
+                    <%= user.files.notice[i] %>
+                      <button type="submit" class="btn waves-effect waves-light">
+                        <i class="material-icons">download</i>
+                      </button>
+                  </label>
+                </form>
+              </li>
+              <% } %>
+          </ul>
+          <!--<%= typeof msg != 'undefined' ? msg : '' %>-->
+          <form action="/?tab=notice" method="POST" enctype="multipart/form-data">
+            <div class="file-field input-field">
+              <div class="btn grey">
+                <i class="material-icons">add</i>
+                <input name="myFile" type="file">
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text">
+              </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="invoice" class="col s12">
+        <div>
+          <ul class="collection with-header">
+            <li class="collection-header">
+              <h5>Files:</h5>
+            </li>
+            <% for(let i=0; i<user.files.invoice.length; i++) { %>
+              <li class="collection-item">
+                <form action="/download/<%= user.files.invoice[i]%>">
+                  <label>
+                    <%= user.files.invoice[i] %>
+                      <button type="submit" class="btn waves-effect waves-light">
+                        <i class="material-icons">download</i>
+                      </button>
+                  </label>
+                </form>
+              </li>
+              <% } %>
+          </ul>
+          <!--<%= typeof msg != 'undefined' ? msg : '' %>-->
+          <form action="/?tab=invoice" method="POST" enctype="multipart/form-data">
+            <div class="file-field input-field">
+              <div class="btn grey">
+                <i class="material-icons">add</i>
+                <input name="myFile" type="file">
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text">
+              </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
